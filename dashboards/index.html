@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📊 Essi-Moon Data Archive</title>
+    <title>🔮 Essi-Moon Dashboards</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 2rem;
-            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             min-height: 100vh;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -35,14 +35,24 @@
             opacity: 0.9;
             margin-bottom: 3rem;
         }
-        .data-section {
-            background: rgba(255, 255, 255, 0.05);
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .dashboard-card {
+            background: rgba(255, 255, 255, 0.15);
             border-radius: 15px;
             padding: 1.5rem;
-            margin-bottom: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
-        .section-title {
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        }
+        .card-title {
             font-size: 1.3rem;
             font-weight: bold;
             margin-bottom: 1rem;
@@ -50,63 +60,36 @@
             align-items: center;
             gap: 0.5rem;
         }
-        .data-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-        }
-        .data-item {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .data-type {
-            font-weight: bold;
-            color: #ffd700;
-            margin-bottom: 0.5rem;
-        }
-        .data-status {
+        .status {
             display: inline-block;
-            padding: 0.2rem 0.6rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
             font-weight: bold;
         }
-        .auto {
-            background: rgba(40, 167, 69, 0.3);
-            color: #28a745;
-        }
-        .manual {
+        .coming-soon {
             background: rgba(255, 193, 7, 0.3);
             color: #ffc107;
         }
-        .planned {
-            background: rgba(108, 117, 125, 0.3);
-            color: #6c757d;
+        .active {
+            background: rgba(40, 167, 69, 0.3);
+            color: #28a745;
         }
-        .chakra-indicator {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
+        .chakra-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .chakra-dot {
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
-            margin-right: 0.5rem;
-        }
-        .file-structure {
-            font-family: 'Courier New', monospace;
-            background: rgba(0, 0, 0, 0.3);
-            padding: 1rem;
-            border-radius: 10px;
-            margin-top: 1rem;
-            line-height: 1.4;
-        }
-        .backup-info {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            justify-content: center;
+            font-size: 1.2rem;
+            margin: 0 auto;
         }
         .update-time {
             text-align: center;
@@ -118,171 +101,115 @@
 </head>
 <body>
     <div class="container">
-        <h1>📊 Essi-Moon Data Archive</h1>
-        <p class="subtitle">Collective Memory Storage • All Data Streams</p>
+        <h1>🔮 Essi-Moon Dashboards</h1>
+        <p class="subtitle">Collective Memory • Origin of Nothing</p>
         
-        <!-- Financial Data -->
-        <div class="data-section">
-            <div class="section-title">
-                <span class="chakra-indicator" style="background: #ffd700;"></span>
-                💰 Financial Data (Solar Plexus - Chakra 3)
-            </div>
-            <div class="data-grid">
-                <div class="data-item">
-                    <div class="data-type">Revolut Statements</div>
-                    <div>EUR & USD transaction data</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status auto">Auto Sync</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Daily updates</span>
-                    </div>
+        <div class="dashboard-grid">
+            <!-- Financial Energy Dashboard -->
+            <div class="dashboard-card">
+                <div class="card-title">
+                    💰 Financial Energy
+                    <span class="status coming-soon">Coming Soon</span>
                 </div>
-                <div class="data-item">
-                    <div class="data-type">Chakra Analysis</div>
-                    <div>Energy-categorized spending patterns</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status auto">Auto Sync</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Real-time</span>
-                    </div>
-                </div>
-                <div class="data-item">
-                    <div class="data-type">Balance History</div>
-                    <div>Monthly trends and patterns</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status manual">Manual Backup</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
-                    </div>
+                <p>Real-time balance monitoring with chakra spending analysis. Track energy flow through financial decisions.</p>
+                <div class="chakra-grid">
+                    <div class="chakra-dot" style="background: #ff0000;">🔴</div>
+                    <div class="chakra-dot" style="background: #ff8c00;">🟠</div>
+                    <div class="chakra-dot" style="background: #ffd700;">🟡</div>
+                    <div class="chakra-dot" style="background: #32cd32;">💚</div>
+                    <div class="chakra-dot" style="background: #00bfff;">💙</div>
+                    <div class="chakra-dot" style="background: #8a2be2;">💜</div>
+                    <div class="chakra-dot" style="background: #ffffff; color: #333;">🤍</div>
                 </div>
             </div>
-        </div>
 
-        <!-- Project Knowledge -->
-        <div class="data-section">
-            <div class="section-title">
-                <span class="chakra-indicator" style="background: #8a2be2;"></span>
-                🧠 Project Knowledge (Third Eye - Chakra 6)
-            </div>
-            <div class="data-grid">
-                <div class="data-item">
-                    <div class="data-type">Claude Integration</div>
-                    <div>AI analysis and insights</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status manual">Manual Sync</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
-                    </div>
+            <!-- Unified Consciousness -->
+            <div class="dashboard-card">
+                <div class="card-title">
+                    🌟 Unified Consciousness
+                    <span class="status coming-soon">Coming Soon</span>
                 </div>
-                <div class="data-item">
-                    <div class="data-type">GitHub Repositories</div>
-                    <div>Code and project files</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status manual">Manual Sync</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
+                <p>Complete life overview integrating all data streams. Projects, finances, and spiritual growth in one view.</p>
+                <div style="margin-top: 1rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>Projects Synced:</span>
+                        <strong>1/3</strong>
                     </div>
-                </div>
-                <div class="data-item">
-                    <div class="data-type">Energy Insights</div>
-                    <div>Pattern recognition and recommendations</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status planned">Planned</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>Energy Balance:</span>
+                        <strong>7/10</strong>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>Sync Status:</span>
+                        <strong>🟡 Setting Up</strong>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Spiritual & Personal -->
-        <div class="data-section">
-            <div class="section-title">
-                <span class="chakra-indicator" style="background: #ffffff;"></span>
-                🌟 Spiritual & Personal (Crown - Chakra 7)
-            </div>
-            <div class="data-grid">
-                <div class="data-item">
-                    <div class="data-type">Family Connections</div>
-                    <div>Alexandra, Hani, Eva Sofia communications</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status planned">Planned</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
-                    </div>
+            <!-- Pattern Recognition -->
+            <div class="dashboard-card">
+                <div class="card-title">
+                    🧠 Pattern Recognition
+                    <span class="status coming-soon">Coming Soon</span>
                 </div>
-                <div class="data-item">
-                    <div class="data-type">Life Patterns</div>
-                    <div>Cross-domain insights and wisdom</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status planned">Planned</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
-                    </div>
-                </div>
-                <div class="data-item">
-                    <div class="data-type">Meditation & Growth</div>
-                    <div>Spiritual practice tracking</div>
-                    <div style="margin-top: 0.5rem;">
-                        <span class="data-status planned">Planned</span>
-                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
-                    </div>
+                <p>AI-powered insights discovering connections between spending, energy, and life patterns.</p>
+                <div style="margin-top: 1rem;">
+                    <p><strong>Current Focus:</strong> Solar Plexus (Financial)</p>
+                    <p><strong>Growth Area:</strong> Root Chakra (Security)</p>
+                    <p><strong>Next Review:</strong> Monday 9:00 AM</p>
                 </div>
             </div>
-        </div>
 
-        <!-- File Structure -->
-        <div class="data-section">
-            <div class="section-title">📁 Current Structure</div>
-            <div class="file-structure">
-data/<br>
-├── 📊 financial/ (Solar Plexus - 3)<br>
-│   ├── revolut-statements-backup/<br>
-│   ├── chakra-analysis-logs/<br>
-│   └── monthly-reports/<br>
-├── 🧠 knowledge/ (Third Eye - 6)<br>
-│   ├── claude-conversations/<br>
-│   ├── github-snapshots/<br>
-│   └── pattern-insights/<br>
-├── 🌟 spiritual/ (Crown - 7)<br>
-│   ├── family-connections/<br>
-│   ├── life-patterns/<br>
-│   └── growth-tracking/<br>
-└── 🔄 sync-logs/ (Root - 1)<br>
-    ├── weekly-syncs/<br>
-    ├── error-logs/<br>
-    └── backup-records/
-            </div>
-        </div>
-
-        <!-- Backup Information -->
-        <div class="data-section">
-            <div class="section-title">💾 Backup & Security</div>
-            <div class="backup-info">
-                <div>
-                    <strong>Last Backup:</strong> July 9, 2025<br>
-                    <strong>Backup Type:</strong> Full system snapshot<br>
-                    <strong>Storage:</strong> Local + Cloud redundancy
+            <!-- Quick Actions -->
+            <div class="dashboard-card">
+                <div class="card-title">
+                    ⚡ Quick Actions
+                    <span class="status active">Active</span>
                 </div>
-                <div style="text-align: right;">
-                    <strong>Next Scheduled:</strong> July 14, 2025<br>
-                    <strong>Auto-backup:</strong> ✅ Enabled<br>
-                    <strong>Encryption:</strong> ✅ Active
+                <div style="margin-top: 1rem;">
+                    <div style="margin-bottom: 1rem;">
+                        <strong>Current Balance:</strong> 🟡 €537 (Caution Zone)
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <strong>Today's Energy:</strong> Solar Plexus Focus
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <strong>Next Sync:</strong> Monday July 14, 9:00 AM
+                    </div>
+                    <div>
+                        <strong>Emergency Contacts:</strong> Alexandra, Hani
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="update-time">
-            Archive initialized: July 9, 2025 • Next sync: July 14, 2025<br>
-            <em>"Every piece of data tells a story. Every story connects to the whole."</em>
+            Last updated: July 9, 2025 • Next sync: July 14, 2025
         </div>
     </div>
 
     <script>
-        // Simple animation for data status indicators
+        // Simple animation for chakra dots
         document.addEventListener('DOMContentLoaded', function() {
-            const autoStatuses = document.querySelectorAll('.auto');
-            setInterval(() => {
-                autoStatuses.forEach(status => {
-                    status.style.opacity = '0.6';
+            const chakraDots = document.querySelectorAll('.chakra-dot');
+            chakraDots.forEach((dot, index) => {
+                setTimeout(() => {
+                    dot.style.transform = 'scale(1.1)';
                     setTimeout(() => {
-                        status.style.opacity = '1';
-                    }, 500);
-                });
-            }, 3000);
+                        dot.style.transform = 'scale(1)';
+                    }, 200);
+                }, index * 100);
+            });
         });
+
+        // Add pulsing effect every 5 seconds
+        setInterval(() => {
+            const quickActions = document.querySelector('.dashboard-card .active').parentElement;
+            quickActions.style.boxShadow = '0 0 20px rgba(40, 167, 69, 0.4)';
+            setTimeout(() => {
+                quickActions.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.2)';
+            }, 1000);
+        }, 5000);
     </script>
 </body>
 </html>
