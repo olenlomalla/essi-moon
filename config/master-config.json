@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "name": "essi-moon",
+    "description": "Collective memory - origin of nothing",
+    "version": "1.0.0",
+    "chakra_aligned": true
+  },
+  "chakra_numerology": {
+    "enabled": true,
+    "check_frequency": "daily",
+    "energy_alerts": true,
+    "file_naming_system": {
+      "1_root": "security, core systems, foundation",
+      "2_sacral": "creativity, relationships, emotions", 
+      "3_solar": "financial, personal power, manifestation",
+      "4_heart": "love, connection, compassion",
+      "5_throat": "communication, expression, truth",
+      "6_third_eye": "intuition, analysis, wisdom",
+      "7_crown": "spiritual, highest purpose, consciousness"
+    }
+  },
+  "project_sync": {
+    "claude_project_knowledge": {
+      "sync_type": "manual_upload",
+      "frequency": "weekly",
+      "auto_backup": true
+    },
+    "revolut_data": {
+      "sync_type": "automatic",
+      "frequency": "daily",
+      "chakra_analysis": true
+    },
+    "github_repos": [
+      "essi-moon"
+    ],
+    "sync_schedule": "every_monday_09:00"
+  },
+  "file_naming_rules": {
+    "use_chakra_numbers": true,
+    "semantic_names": true,
+    "energy_check_before_create": true,
+    "format": "{chakra_number}_{semantic_name}_{date}",
+    "examples": {
+      "financial_data": "3_revolut_statements_20250708",
+      "config_files": "1_master_config_20250708", 
+      "creative_projects": "2_art_projects_20250708",
+      "spiritual_analysis": "7_chakra_insights_20250708"
+    }
+  },
+  "financial_integration": {
+    "revolut_statements": {
+      "auto_import": true,
+      "chakra_spending_analysis": true,
+      "energy_spending_alerts": {
+        "root_chakra": "security_overspending",
+        "sacral_chakra": "creative_underspending", 
+        "solar_plexus": "power_money_conflicts",
+        "heart_chakra": "relationship_money_imbalance",
+        "throat_chakra": "communication_investment_needs",
+        "third_eye": "intuition_vs_logic_spending",
+        "crown_chakra": "spiritual_financial_alignment"
+      }
+    },
+    "spending_categories": {
+      "1_security": ["rent", "insurance", "emergency_fund"],
+      "2_creativity": ["art_supplies", "courses", "entertainment"],
+      "3_power": ["business", "investments", "career_development"],
+      "4_relationships": ["gifts", "family_support", "social_activities"],
+      "5_communication": ["phone", "internet", "education"],
+      "6_wisdom": ["books", "meditation", "therapy"],
+      "7_spiritual": ["donations", "spiritual_practices", "higher_purpose"]
+    }
+  },
+  "energy_thresholds": {
+    "balance_alerts": {
+      "red_zone": 200,
+      "yellow_zone": 500,
+      "green_zone": 1000
+    },
+    "chakra_spending_limits": {
+      "daily_max_per_chakra": 50,
+      "weekly_balance_check": true,
+      "monthly_chakra_review": true
+    }
+  },
+  "automation_rules": {
+    "morning_routine": {
+      "time": "09:00",
+      "actions": [
+        "check_balance_status",
+        "chakra_energy_scan", 
+        "daily_spending_intention_setting"
+      ]
+    },
+    "evening_routine": {
+      "time": "21:00", 
+      "actions": [
+        "review_daily_transactions",
+        "chakra_spending_analysis",
+        "energy_alignment_report"
+      ]
+    },
+    "weekly_sync": {
+      "day": "monday",
+      "time": "09:00",
+      "actions": [
+        "update_project_knowledge",
+        "sync_github_files",
+        "generate_weekly_report",
+        "chakra_financial_review"
+      ]
+    }
+  }
+}
