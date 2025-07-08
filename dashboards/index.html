@@ -1,1 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Essi-Moon Data Archive</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .subtitle {
+            text-align: center;
+            font-style: italic;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+        }
+        .data-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .data-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .data-type {
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+        }
+        .data-status {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .auto {
+            background: rgba(40, 167, 69, 0.3);
+            color: #28a745;
+        }
+        .manual {
+            background: rgba(255, 193, 7, 0.3);
+            color: #ffc107;
+        }
+        .planned {
+            background: rgba(108, 117, 125, 0.3);
+            color: #6c757d;
+        }
+        .chakra-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+        .file-structure {
+            font-family: 'Courier New', monospace;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+            line-height: 1.4;
+        }
+        .backup-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .update-time {
+            text-align: center;
+            opacity: 0.7;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Essi-Moon Data Archive</h1>
+        <p class="subtitle">Collective Memory Storage • All Data Streams</p>
+        
+        <!-- Financial Data -->
+        <div class="data-section">
+            <div class="section-title">
+                <span class="chakra-indicator" style="background: #ffd700;"></span>
+                💰 Financial Data (Solar Plexus - Chakra 3)
+            </div>
+            <div class="data-grid">
+                <div class="data-item">
+                    <div class="data-type">Revolut Statements</div>
+                    <div>EUR & USD transaction data</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status auto">Auto Sync</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Daily updates</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">Chakra Analysis</div>
+                    <div>Energy-categorized spending patterns</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status auto">Auto Sync</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Real-time</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">Balance History</div>
+                    <div>Monthly trends and patterns</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status manual">Manual Backup</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Project Knowledge -->
+        <div class="data-section">
+            <div class="section-title">
+                <span class="chakra-indicator" style="background: #8a2be2;"></span>
+                🧠 Project Knowledge (Third Eye - Chakra 6)
+            </div>
+            <div class="data-grid">
+                <div class="data-item">
+                    <div class="data-type">Claude Integration</div>
+                    <div>AI analysis and insights</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status manual">Manual Sync</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">GitHub Repositories</div>
+                    <div>Code and project files</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status manual">Manual Sync</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Weekly</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">Energy Insights</div>
+                    <div>Pattern recognition and recommendations</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status planned">Planned</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spiritual & Personal -->
+        <div class="data-section">
+            <div class="section-title">
+                <span class="chakra-indicator" style="background: #ffffff;"></span>
+                🌟 Spiritual & Personal (Crown - Chakra 7)
+            </div>
+            <div class="data-grid">
+                <div class="data-item">
+                    <div class="data-type">Family Connections</div>
+                    <div>Alexandra, Hani, Eva Sofia communications</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status planned">Planned</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">Life Patterns</div>
+                    <div>Cross-domain insights and wisdom</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status planned">Planned</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
+                    </div>
+                </div>
+                <div class="data-item">
+                    <div class="data-type">Meditation & Growth</div>
+                    <div>Spiritual practice tracking</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="data-status planned">Planned</span>
+                        <span style="margin-left: 1rem; font-size: 0.9rem;">Future</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- File Structure -->
+        <div class="data-section">
+            <div class="section-title">📁 Current Structure</div>
+            <div class="file-structure">
+data/<br>
+├── 📊 financial/ (Solar Plexus - 3)<br>
+│   ├── revolut-statements-backup/<br>
+│   ├── chakra-analysis-logs/<br>
+│   └── monthly-reports/<br>
+├── 🧠 knowledge/ (Third Eye - 6)<br>
+│   ├── claude-conversations/<br>
+│   ├── github-snapshots/<br>
+│   └── pattern-insights/<br>
+├── 🌟 spiritual/ (Crown - 7)<br>
+│   ├── family-connections/<br>
+│   ├── life-patterns/<br>
+│   └── growth-tracking/<br>
+└── 🔄 sync-logs/ (Root - 1)<br>
+    ├── weekly-syncs/<br>
+    ├── error-logs/<br>
+    └── backup-records/
+            </div>
+        </div>
+
+        <!-- Backup Information -->
+        <div class="data-section">
+            <div class="section-title">💾 Backup & Security</div>
+            <div class="backup-info">
+                <div>
+                    <strong>Last Backup:</strong> July 9, 2025<br>
+                    <strong>Backup Type:</strong> Full system snapshot<br>
+                    <strong>Storage:</strong> Local + Cloud redundancy
+                </div>
+                <div style="text-align: right;">
+                    <strong>Next Scheduled:</strong> July 14, 2025<br>
+                    <strong>Auto-backup:</strong> ✅ Enabled<br>
+                    <strong>Encryption:</strong> ✅ Active
+                </div>
+            </div>
+        </div>
+
+        <div class="update-time">
+            Archive initialized: July 9, 2025 • Next sync: July 14, 2025<br>
+            <em>"Every piece of data tells a story. Every story connects to the whole."</em>
+        </div>
+    </div>
+
+    <script>
+        // Simple animation for data status indicators
+        document.addEventListener('DOMContentLoaded', function() {
+            const autoStatuses = document.querySelectorAll('.auto');
+            setInterval(() => {
+                autoStatuses.forEach(status => {
+                    status.style.opacity = '0.6';
+                    setTimeout(() => {
+                        status.style.opacity = '1';
+                    }, 500);
+                });
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
