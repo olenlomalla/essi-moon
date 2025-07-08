@@ -1,5 +1,203 @@
-General Instructions:
-- read this file first, edit after readig the full document
-- use memorable and semantic file names
-- if possible use chakra numerology in naming of files
-- use chakra numerology check of every event and report if any recomendations and alerts will be detected
+{
+  "general_instructions": {
+    "priority": "read this file first, edit after reading the full document",
+    "file_naming": {
+      "use_memorable_semantic_names": true,
+      "use_chakra_numerology": true,
+      "format": "{chakra_number}_{semantic_name}_{version}",
+      "examples": {
+        "config": "1_master_config_v1",
+        "financial": "3_revolut_analyzer_v2", 
+        "creative": "2_art_project_summer",
+        "spiritual": "7_meditation_tracker_v1"
+      }
+    },
+    "chakra_numerology_system": {
+      "enabled": true,
+      "check_every_event": true,
+      "provide_recommendations": true,
+      "alert_on_imbalances": true
+    }
+  },
+  "project_sync_rules": {
+    "master_source": "essi-moon repository",
+    "sync_frequency": "weekly_monday_09:00",
+    "auto_backup": true,
+    "conflict_resolution": "newest_version_wins",
+    "sync_targets": [
+      "claude_project_knowledge",
+      "local_development",
+      "backup_storage"
+    ]
+  },
+  "chakra_event_analysis": {
+    "financial_transactions": {
+      "analyze_every_transaction": true,
+      "assign_chakra_energy": true,
+      "track_balance_patterns": true,
+      "alert_thresholds": {
+        "red_zone": 200,
+        "yellow_zone": 500, 
+        "green_zone": 1000
+      }
+    },
+    "file_operations": {
+      "check_chakra_alignment": true,
+      "suggest_optimal_timing": true,
+      "energy_compatibility": true
+    },
+    "decision_support": {
+      "before_major_purchases": "run_chakra_check",
+      "before_project_start": "energy_alignment_scan",
+      "daily_routine": "morning_energy_assessment"
+    }
+  },
+  "dyscalculia_support": {
+    "number_formatting": {
+      "round_to_nearest_5": true,
+      "use_visual_indicators": true,
+      "color_coding": true,
+      "simple_comparisons": true
+    },
+    "spending_visualization": {
+      "use_food_metaphors": true,
+      "examples": {
+        "20_euros": "one_restaurant_meal",
+        "50_euros": "weekly_groceries",
+        "100_euros": "tank_of_fuel"
+      }
+    },
+    "decision_trees": {
+      "simple_yes_no": true,
+      "visual_flow": true,
+      "color_coded_choices": true
+    }
+  },
+  "automation_triggers": {
+    "daily": {
+      "morning_09:00": [
+        "check_account_balance",
+        "assess_chakra_energy",
+        "set_spending_intention"
+      ],
+      "evening_21:00": [
+        "review_transactions", 
+        "chakra_spending_analysis",
+        "prepare_tomorrow_energy"
+      ]
+    },
+    "weekly": {
+      "monday_09:00": [
+        "sync_all_projects",
+        "update_project_knowledge",
+        "weekly_chakra_review",
+        "financial_energy_report"
+      ]
+    },
+    "monthly": {
+      "first_monday": [
+        "deep_chakra_analysis",
+        "spending_pattern_review",
+        "goal_alignment_check",
+        "collective_memory_backup"
+      ]
+    }
+  },
+  "file_structure": {
+    "config": {
+      "chakra": 1,
+      "purpose": "core_system_files",
+      "examples": ["master-config.json", "sync-settings.json"]
+    },
+    "creative": {
+      "chakra": 2, 
+      "purpose": "art_relationship_emotion",
+      "examples": ["art-projects", "social-connections"]
+    },
+    "financial": {
+      "chakra": 3,
+      "purpose": "money_power_manifestation", 
+      "examples": ["revolut-data", "investment-tracking"]
+    },
+    "connection": {
+      "chakra": 4,
+      "purpose": "love_family_compassion",
+      "examples": ["family-communications", "relationship-data"]
+    },
+    "communication": {
+      "chakra": 5,
+      "purpose": "expression_truth_learning",
+      "examples": ["education", "communication-tools"]
+    },
+    "wisdom": {
+      "chakra": 6,
+      "purpose": "analysis_intuition_insight",
+      "examples": ["data-analysis", "pattern-recognition"]
+    },
+    "spiritual": {
+      "chakra": 7,
+      "purpose": "highest_consciousness_purpose",
+      "examples": ["meditation-logs", "spiritual-practices"]
+    }
+  },
+  "integration_rules": {
+    "revolut_data": {
+      "auto_import": true,
+      "chakra_categorization": true,
+      "energy_analysis": true,
+      "dyscalculia_formatting": true
+    },
+    "github_sync": {
+      "manual_trigger": "weekly",
+      "backup_before_sync": true,
+      "conflict_alerts": true,
+      "version_tracking": true
+    },
+    "claude_integration": {
+      "financial_analysis": "automatic",
+      "chakra_insights": "on_request", 
+      "decision_support": "always_available",
+      "pattern_recognition": "background_continuous"
+    }
+  },
+  "emergency_protocols": {
+    "low_balance_alert": {
+      "threshold": 200,
+      "actions": [
+        "immediate_chakra_scan",
+        "emergency_spending_mode",
+        "family_contact_preparation"
+      ]
+    },
+    "chakra_imbalance_critical": {
+      "threshold": "80_percent_single_chakra",
+      "actions": [
+        "pause_all_spending",
+        "energy_rebalancing_required",
+        "meditation_intervention"
+      ]
+    },
+    "sync_failure": {
+      "backup_restore": "automatic",
+      "manual_override": "available",
+      "data_protection": "priority_one"
+    }
+  },
+  "collective_memory_goals": {
+    "short_term": [
+      "establish_sync_routine",
+      "chakra_financial_integration", 
+      "dyscalculia_support_optimization"
+    ],
+    "medium_term": [
+      "predictive_spending_analysis",
+      "energy_pattern_recognition",
+      "automated_life_optimization"
+    ],
+    "long_term": [
+      "unified_consciousness_dashboard",
+      "spiritual_financial_mastery",
+      "collective_wisdom_synthesis"
+    ]
+  }
+}
