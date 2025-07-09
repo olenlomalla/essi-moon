@@ -1,1 +1,116 @@
-
+{
+  "meta": {
+    "last_updated": "2025-07-09T15:30:00Z",
+    "updating_project": "essi-moon-main",
+    "version": "1.0.0",
+    "sync_hash": "abc123def456"
+  },
+  "financial": {
+    "current_balance": 537,
+    "balance_status": "yellow",
+    "last_transaction_date": "2025-07-08",
+    "daily_spending": 71,
+    "weekly_fuel": 147,
+    "weekly_food": 119,
+    "monthly_subscriptions": 376,
+    "chakra_dominant": "solar_plexus",
+    "energy_alerts": [
+      {
+        "type": "caution",
+        "message": "Balance in yellow zone - careful spending needed",
+        "chakra": 3
+      }
+    ]
+  },
+  "projects": {
+    "essi_moon_main": {
+      "last_active": "2025-07-09T15:30:00Z",
+      "status": "active",
+      "focus": "system_setup"
+    },
+    "financial_advisor": {
+      "last_active": "2025-07-08T12:00:00Z", 
+      "status": "standby",
+      "focus": "spending_analysis"
+    },
+    "creative_projects": {
+      "last_active": "2025-07-07T18:00:00Z",
+      "status": "standby", 
+      "focus": "art_development"
+    }
+  },
+  "decisions": {
+    "recent": [
+      {
+        "date": "2025-07-09",
+        "decision": "Upgraded to GitHub Pro for private Pages",
+        "reasoning": "Enable private dashboards with professional features",
+        "chakra_alignment": 3,
+        "status": "implemented"
+      },
+      {
+        "date": "2025-07-09",
+        "decision": "Created unified sync system architecture", 
+        "reasoning": "All Claude projects need shared truth source",
+        "chakra_alignment": 6,
+        "status": "in_progress"
+      }
+    ],
+    "pending": [
+      {
+        "decision": "Whether to automate GitHub updates from Claude",
+        "options": ["API integration", "manual workflow", "hybrid approach"],
+        "deadline": "2025-07-14",
+        "chakra_consideration": "balance_automation_vs_control"
+      }
+    ]
+  },
+  "insights": {
+    "patterns": [
+      "Solar Plexus chakra dominant in recent spending",
+      "Security (Root) needs more attention",
+      "BetterHelp investment showing positive patterns"
+    ],
+    "recommendations": [
+      "Focus on Root chakra security building",
+      "Maintain Heart chakra (BetterHelp) investment",
+      "Consider reducing Solar Plexus dominance"
+    ],
+    "chakra_balance": {
+      "1_root": 15,
+      "2_sacral": 10, 
+      "3_solar": 45,
+      "4_heart": 20,
+      "5_throat": 8,
+      "6_third_eye": 2,
+      "7_crown": 0
+    }
+  },
+  "family_network": {
+    "alexandra_polyakov": {
+      "relationship": "primary_support",
+      "last_transfer": "2025-07-03",
+      "amount": 200,
+      "status": "active"
+    },
+    "hani_karen_polyakov": {
+      "relationship": "emergency_contact",
+      "last_contact": "2025-07-01",
+      "status": "standby"
+    },
+    "eva_sofia_polyakov": {
+      "relationship": "recipient",
+      "last_transfer": "2025-06-28",
+      "amount": 50,
+      "status": "regular"
+    }
+  },
+  "automation_status": {
+    "revolut_sync": "active",
+    "chakra_analysis": "active", 
+    "github_pages": "active",
+    "claude_projects_sync": "implementing",
+    "daily_routines": "manual",
+    "weekly_reports": "manual"
+  }
+}
