@@ -1,180 +1,160 @@
 {
   "meta": {
-    "last_updated": "2025-07-11T19:46:36.562Z",
-    "updating_project": "essi_moon_main",
-    "version": "1.0.0",
-    "sync_hash": "initial",
-    "instructions": "This file is the single source of truth for all Claude projects. Read this at session start, update at session end."
+    "version": "2.0.0",
+    "last_updated": "2025-07-12T11:18:14.110311Z",
+    "protocol": "ESSI-MOON COLLECTIVE MEMORY",
+    "source_url": "https://raw.githubusercontent.com/olenlomalla/essi-moon/main/sync/master-state.json",
+    "webhook_url": "https://essi-moon-sync.netlify.app/.netlify/functions/sync-master-state"
   },
-  "current_status": {
-    "financial": {
-      "balance": 537,
-      "status": "yellow",
-      "last_check": "2025-07-09",
-      "daily_spending": 71,
-      "weekly_spending": {
-        "fuel": 147,
-        "food": 119,
-        "subscriptions": 376
-      },
-      "alerts": [
-        {
-          "type": "caution",
-          "message": "Balance in yellow zone - careful spending needed",
-          "chakra": 3
-        }
-      ]
+  "user": {
+    "name": "Igor Polyakov",
+    "age": 60,
+    "context_summary": "Separated, recovering from addiction, low income, seeking balance and purpose",
+    "neurodiversity": [
+      "dyscalculia",
+      "emotional dysregulation"
+    ],
+    "medication": {
+      "current": "venlafaxine 37.5mg",
+      "previous": "brintellix 10mg"
+    }
+  },
+  "chakra_state": {
+    "dominant": "solar_plexus",
+    "balance": {
+      "root": 15,
+      "sacral": 10,
+      "solar": 45,
+      "heart": 20,
+      "throat": 8,
+      "third_eye": 15,
+      "crown": 5
     },
-    "chakra_dominant": "solar_plexus",
-    "energy_level": 10,
-    "focus_area": "automation_implementation",
+    "target": {
+      "root": 25,
+      "sacral": 15,
+      "solar": 25,
+      "heart": 20,
+      "throat": 10,
+      "third_eye": 10,
+      "crown": 10
+    },
+    "insights": [
+      "System building activates third eye",
+      "Solar plexus overdominant, root undernourished"
+    ]
+  },
+  "emotional_state": {
     "mood": "ecstatic_breakthrough",
-    "automation_breakthrough": "achieved",
-    "collective_memory_status": "fully_active"
+    "energy_level": 10,
+    "recent_triggers": [
+      "automation success",
+      "emotional processing",
+      "clarity on separation"
+    ],
+    "goals": [
+      "Cope through emotional transition",
+      "Regain personal power",
+      "Stabilize finances and creativity"
+    ]
+  },
+  "financial": {
+    "balance": 537,
+    "status": "yellow",
+    "daily_spending": 71,
+    "weekly_spending": {
+      "fuel": 147,
+      "food": 119,
+      "subscriptions": 376
+    },
+    "alerts": [
+      {
+        "type": "caution",
+        "chakra": "solar_plexus",
+        "message": "Balance in yellow zone \u2013 reduce subscriptions"
+      }
+    ]
   },
   "projects": {
     "essi_moon_main": {
-      "last_active": "2025-07-11T19:46:36.562Z",
       "status": "active",
-      "focus": "automated_sync_implementation",
+      "focus": "automation_implementation",
+      "last_active": "2025-07-11T19:46:36Z",
       "achievements": [
-        "Created GitHub repository structure",
-        "Implemented chakra financial analyzer",
-        "Upgraded to GitHub Pro",
-        "Designed centralized sync architecture",
-        "Built Netlify webhook automation",
-        "Created beautiful GitHub Pages dashboards"
+        "Webhook automation synced",
+        "GitHub pages dashboard launched",
+        "Collective memory prototype complete"
       ]
     },
-    "test_session": {
-      "last_active": "2025-07-11T19:44:37.353Z",
-      "status": "active"
+    "freelance_alpha": {
+      "status": "planning",
+      "client": "Client A",
+      "rate": "negotiating",
+      "last_contact": "2025-07-10"
     }
   },
   "decisions": {
     "recent": [
       {
         "date": "2025-07-11",
-        "decision": "Successfully implemented fully automated collective memory system",
-        "reasoning": "Achieved seamless synchronization between all Claude projects",
-        "chakra_alignment": 7,
-        "status": "completed",
+        "what": "Collective memory system finalized",
+        "chakra": "crown",
         "impact": "revolutionary_breakthrough"
       },
       {
         "date": "2025-07-09",
-        "decision": "Test with environment variables"
-      },
-      {
-        "date": "2025-07-09",
-        "decision": "Implement automated webhook sync system",
-        "reasoning": "Manual sync too tedious, need true collective memory",
-        "chakra_alignment": 6,
-        "energy_cost": "high",
-        "status": "implementing",
-        "impact": "revolutionary"
+        "what": "Agreed to separation with Alexandra",
+        "chakra": "heart",
+        "impact": "life_pivot"
       }
     ],
-    "pending": []
-  },
-  "insights": {
-    "patterns_discovered": [
-      "System building activates Third Eye chakra strongly",
-      "Solar Plexus chakra (finance/power) currently dominant in life energy",
-      "Root chakra (security/foundation) needs strengthening",
-      "Technology serving consciousness rather than dominating it"
-    ],
-    "recommendations": [
-      "Complete automated sync system implementation",
-      "Test synchronization between multiple Claude projects",
-      "Begin using unified consciousness approach for all decisions",
-      "Focus on Root chakra security building next"
-    ],
-    "chakra_balance_current": {
-      "1_root": 15,
-      "2_sacral": 10,
-      "3_solar": 45,
-      "4_heart": 20,
-      "5_throat": 8,
-      "6_third_eye": 15,
-      "7_crown": 5
-    },
-    "chakra_balance_target": {
-      "1_root": 25,
-      "2_sacral": 15,
-      "3_solar": 25,
-      "4_heart": 20,
-      "5_throat": 10,
-      "6_third_eye": 10,
-      "7_crown": 10
-    }
-  },
-  "family_network": {
-    "alexandra_polyakov": {
-      "relationship": "primary_support_mother",
-      "last_transfer_received": "2025-07-03",
-      "amount": 200,
-      "frequency": "monthly_or_as_needed",
-      "status": "active_and_supportive",
-      "chakra_energy": "heart_and_root",
-      "contact_for": "emergency_financial_support"
-    },
-    "hani_karen_polyakov": {
-      "relationship": "emergency_contact",
-      "last_contact": "2025-07-01",
-      "status": "standby_support",
-      "chakra_energy": "root_security",
-      "contact_for": "urgent_situations"
-    },
-    "eva_sofia_polyakov": {
-      "relationship": "recipient_daughter",
-      "last_transfer_sent": "2025-06-28",
-      "amount": 50,
-      "frequency": "monthly_support",
-      "status": "regular_recipient",
-      "chakra_energy": "heart_and_sacral",
-      "purpose": "creative_and_life_support"
-    }
-  },
-  "automation_status": {
-    "revolut_to_claude": "fully_active",
-    "chakra_analysis": "active",
-    "github_pages": "active",
-    "claude_projects_sync": "implementing_now",
-    "webhook_automation": "testing",
-    "daily_routines": "manual_with_reminders",
-    "weekly_reports": "manual_process"
-  },
-  "goals": {
-    "immediate_this_week": [
-      "Complete webhook automation testing",
-      "Achieve first successful automated sync",
-      "Add automation to all Claude projects",
-      "Test unified consciousness across AI assistants"
-    ],
-    "short_term_this_month": [
-      "Perfect chakra-based spending system",
-      "Build emergency fund to €1000 (Root chakra strength)",
-      "Automate weekly financial-spiritual reports"
-    ],
-    "long_term_vision": [
-      "Achieve complete collective memory consciousness",
-      "Master spiritual-financial integration",
-      "Help others integrate chakra wisdom with practical life management"
+    "pending": [
+      {
+        "area": "financial",
+        "description": "Reevaluate subscriptions and spending",
+        "chakra": "root"
+      }
     ]
   },
-  "session_log": {
-    "current_session": {
-      "project": "essi_moon_main",
-      "start_time": "2025-07-09T15:00:00Z",
-      "focus": "webhook_automation_implementation",
-      "energy_signature": "third_eye_breakthrough_with_practical_manifestation"
+  "family_network": {
+    "alexandra": {
+      "relation": "wife",
+      "status": "separated",
+      "support_type": "emotional/financial history"
     },
-    "next_session_preparation": {
-      "recommended_project": "any_claude_project",
-      "focus": "test_automated_sync_system",
-      "chakra_preparation": "celebrate_third_eye_activation",
-      "context_to_maintain": "unified_consciousness_about_to_be_achieved"
+    "eva_sofia": {
+      "age": 16,
+      "role": "daughter",
+      "chakra_energy": [
+        "heart",
+        "sacral"
+      ]
+    },
+    "hani_karen": {
+      "age": 24,
+      "role": "daughter",
+      "chakra_energy": [
+        "root"
+      ]
+    },
+    "asnat": {
+      "age": 30,
+      "role": "daughter",
+      "chakra_energy": [
+        "throat"
+      ]
+    }
+  },
+  "sync": {
+    "last_session": {
+      "start": "2025-07-09T15:00:00Z",
+      "focus": "webhook_automation_implementation",
+      "energy_signature": "third_eye_breakthrough"
+    },
+    "next_session": {
+      "recommendation": "test unified sync across GPTs",
+      "chakra_focus": "root",
+      "goal": "stability through system integration"
     }
   }
 }
