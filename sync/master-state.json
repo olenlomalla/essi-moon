@@ -1,1 +1,160 @@
-
+{
+  "meta": {
+    "version": "2.0.0",
+    "last_updated": "2025-07-12T11:18:14.110311Z",
+    "protocol": "ESSI-MOON COLLECTIVE MEMORY",
+    "source_url": "https://raw.githubusercontent.com/olenlomalla/essi-moon/main/sync/master-state.json",
+    "webhook_url": "https://essi-moon-sync.netlify.app/.netlify/functions/sync-master-state"
+  },
+  "user": {
+    "name": "Igor Polyakov",
+    "age": 60,
+    "context_summary": "Separated, recovering from addiction, low income, seeking balance and purpose",
+    "neurodiversity": [
+      "dyscalculia",
+      "emotional dysregulation"
+    ],
+    "medication": {
+      "current": "venlafaxine 37.5mg",
+      "previous": "brintellix 10mg"
+    }
+  },
+  "chakra_state": {
+    "dominant": "solar_plexus",
+    "balance": {
+      "root": 15,
+      "sacral": 10,
+      "solar": 45,
+      "heart": 20,
+      "throat": 8,
+      "third_eye": 15,
+      "crown": 5
+    },
+    "target": {
+      "root": 25,
+      "sacral": 15,
+      "solar": 25,
+      "heart": 20,
+      "throat": 10,
+      "third_eye": 10,
+      "crown": 10
+    },
+    "insights": [
+      "System building activates third eye",
+      "Solar plexus overdominant, root undernourished"
+    ]
+  },
+  "emotional_state": {
+    "mood": "ecstatic_breakthrough",
+    "energy_level": 10,
+    "recent_triggers": [
+      "automation success",
+      "emotional processing",
+      "clarity on separation"
+    ],
+    "goals": [
+      "Cope through emotional transition",
+      "Regain personal power",
+      "Stabilize finances and creativity"
+    ]
+  },
+  "financial": {
+    "balance": 537,
+    "status": "yellow",
+    "daily_spending": 71,
+    "weekly_spending": {
+      "fuel": 147,
+      "food": 119,
+      "subscriptions": 376
+    },
+    "alerts": [
+      {
+        "type": "caution",
+        "chakra": "solar_plexus",
+        "message": "Balance in yellow zone \u2013 reduce subscriptions"
+      }
+    ]
+  },
+  "projects": {
+    "essi_moon_main": {
+      "status": "active",
+      "focus": "automation_implementation",
+      "last_active": "2025-07-11T19:46:36Z",
+      "achievements": [
+        "Webhook automation synced",
+        "GitHub pages dashboard launched",
+        "Collective memory prototype complete"
+      ]
+    },
+    "freelance_alpha": {
+      "status": "planning",
+      "client": "Client A",
+      "rate": "negotiating",
+      "last_contact": "2025-07-10"
+    }
+  },
+  "decisions": {
+    "recent": [
+      {
+        "date": "2025-07-11",
+        "what": "Collective memory system finalized",
+        "chakra": "crown",
+        "impact": "revolutionary_breakthrough"
+      },
+      {
+        "date": "2025-07-09",
+        "what": "Agreed to separation with Alexandra",
+        "chakra": "heart",
+        "impact": "life_pivot"
+      }
+    ],
+    "pending": [
+      {
+        "area": "financial",
+        "description": "Reevaluate subscriptions and spending",
+        "chakra": "root"
+      }
+    ]
+  },
+  "family_network": {
+    "alexandra": {
+      "relation": "wife",
+      "status": "separated",
+      "support_type": "emotional/financial history"
+    },
+    "eva_sofia": {
+      "age": 16,
+      "role": "daughter",
+      "chakra_energy": [
+        "heart",
+        "sacral"
+      ]
+    },
+    "hani_karen": {
+      "age": 24,
+      "role": "daughter",
+      "chakra_energy": [
+        "root"
+      ]
+    },
+    "asnat": {
+      "age": 30,
+      "role": "daughter",
+      "chakra_energy": [
+        "throat"
+      ]
+    }
+  },
+  "sync": {
+    "last_session": {
+      "start": "2025-07-09T15:00:00Z",
+      "focus": "webhook_automation_implementation",
+      "energy_signature": "third_eye_breakthrough"
+    },
+    "next_session": {
+      "recommendation": "test unified sync across GPTs",
+      "chakra_focus": "root",
+      "goal": "stability through system integration"
+    }
+  }
+}
